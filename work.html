@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nisha Varu's Portfolio</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baskerville Display PT Web" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freight" />
+   
+   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans" />
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montez" /> -->
     <link rel="stylesheet" href="css/index.css" />
@@ -14,12 +14,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+  <style>
+    .header-menu-text:before {
+        background: none;
+     }
+  </style>
   <body>
-    
     <div class="main-container">
         <div class="home">
             <div class="frame"> 
-            <div class="header-menu-text" style="background: none; height: fit-content;">
+            <div class="header-menu-text  " style="background: none; height: fit-content;">
                 <section style="z-index: 50; width: 100%; position: relative;" >
                     <div class="container" >
                         <input type="checkbox" name="toggle" id="vwa__toggle" />
@@ -35,13 +39,13 @@
                      </div>
                   </section>
             </div>
-            <div class="work_title">
+            <div class="work_title ">
                 <div class="work">
                     <div class="designer-tab active" data-type="uiux" onclick="changeDesigner('uiux')">UI/UX Design Work</div>
                     <div class="designer-tab" data-type="graphics" onclick="changeDesigner('graphics')">Graphics Design Work</div>
                 </div>
                 <div class="work_design">
-                    <div id="uiux-content" class=" designer-content active reveal fade-bottom">
+                    <div id="uiux-content" class=" designer-content active">
                         <!-- Content for UI/UX Designer -->
                         <div class="grid-container">
                             <div id="image-uiux">
@@ -51,12 +55,12 @@
                                 <h1>Cookmark</h1>
                                 <h4>UI/UX Case Study</h4>
                                 <p>Cookmark is a recipe cataloging app for people to organize recipes that they find from all over the internet. Users can also create their own recipes, find new recipes, get recommendations, and organize them into folders.</p>
-                                <a href="https://www.behance.net/gallery/184546581/Government-Agency-Website-Redesign" target="_blank">
+                                <a href="https://www.behance.net/gallery/181466293/Cookmark-Case-study" target="_blank">
                                     <button class="work_button">Read Case Study</button>
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-container">
+                        <div class="grid-container reveal fade-right">
                             <div id="image-uiux">
                                 <img class="work_image" src="assets/images/work_2.png">
                             </div>
@@ -64,12 +68,12 @@
                                 <h1>Government Agency Website Redesign</h1>
                                 <h4>UI/UX Case Study</h4>
                                 <p>I choose to redesign the USA Government Website to a responsive website design and user experience, better navigation, and accessibility.</p>
-                                <a href="https://www.behance.net/gallery/181466293/Cookmark-Case-study" target="_blank">
+                                <a href="https://www.behance.net/gallery/184546581/Government-Agency-Website-Redesign  " target="_blank">
                                     <button class="work_button">Read Case Study</button>
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-container">
+                        <div class="grid-container reveal fade-left">
                             <div id="image-uiux">
                                 <img class="work_image" src="assets/images/work_3.jpg">
                             </div>
@@ -82,14 +86,14 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-container">
+                        <div class="grid-container reveal fade-right">
                             <div id="image-uiux">
                                 <img class="work_image" src="assets/images/work_4.jpg">
                             </div>
                             <div id="content-uiux" class="work_content">
                                 <h1>FoodKing Website Design</h1>
                                 <h4>UI Design</h4>
-                                <p>Provide a learning environment run by experienced and successful coaches. FitPro Gym's most important goal was to create a welcoming atmosphere and community in which everyone feels a sense of belonging.</p>
+                                <p> FoodKing is a seamless bridge connecting users to a diverse culinary world. We empower users to explore, order, track and enjoy their favorite meals effortlessly. With a user-friendly interface, a vast network of restaurants, and efficient delivery services.</p>
                                 <a href="https://www.behance.net/gallery/187984421/FoodKing-Website-Design" target="_blank">
                                     <button class="work_button">View Full Design</button>
                                 </a>
@@ -97,10 +101,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="work_design">
+                <div class="work_design ">
                     <div id="graphics-content" class="designer-content">
                         <!-- Content for Graphics Designer -->
-                        <section>
+                        <section >
                             <div class="design_title">
                                 <div class="design_title_content">
                                     <span style="color: black;">Logo </span>
@@ -122,7 +126,7 @@
                                 </div> 
                             </div>
                         </section>
-                        <section>
+                        <section class="reveal">
                             <div class="design_title">
                                 <div class="design_title_content">
                                     <span style="color: black;">Portfolio Post </span>
@@ -150,7 +154,7 @@
                                 </div>  
                             </div>
                         </section>
-                        <section>
+                        <section class="reveal">
                             <div class="design_title">
                                 <div class="design_title_content">
                                     <span style="color: black;">Illustrator Work </span>
@@ -166,7 +170,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section>
+                        <section class="reveal">
                             <div class="design_title">
                                 <div class="design_title_content">
                                     <span style="color: black;">Card </span>
@@ -186,7 +190,7 @@
                 </div>
                 
             </div>
-            <div class="footer">
+            <div class="footer reveal">
                 <div class="frame-32">
                 <div class="title-33">
                     <div class="it-all-starts-with-hello">
@@ -207,5 +211,30 @@
         </div>
     </div>
     </div>
+    <div class="custom-cursor">
+    </div>
   </body>
 </html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+  // Set UI/UX Designer as default active tab and show its content
+  changeDesigner('uiux');
+});
+
+function changeDesigner(designerType) {
+  // Remove 'active' class from all tabs and content
+  const tabs = document.querySelectorAll('.designer-tab');
+  const contents = document.querySelectorAll('.designer-content');
+  console.log(tabs);
+
+  tabs.forEach(tab => tab.classList.remove('active'));
+  contents.forEach(content => content.classList.remove('active'));
+
+  // Add 'active' class to the clicked tab and show its content
+  const selectedTab = document.querySelector(`.designer-tab[data-type="${designerType}"]`);
+  const selectedContent = document.querySelector(`#${designerType}-content`);
+
+  selectedTab.classList.add('active');
+  selectedContent.classList.add('active');
+}
+</script>
